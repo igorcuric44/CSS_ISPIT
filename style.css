@@ -37,20 +37,20 @@ body {
   }
 }
 .container .item:nth-child(1) {
-  transform: translateY(-100vh);
+  transform: translateY(-88vh);
   background-color: rgba(255, 0, 0, 0.3);
   animation: animacija1 1.5s ease-in-out forwards;
 }
 .container .item:nth-child(2) {
   background-color: rgba(0, 255, 0, 0.3);
   animation: animacija1 1.5s ease-in-out forwards;
-  transform: translateY(-100vh);
+  transform: translateY(-88vh);
   animation-delay: 1.5s;
 }
 .container .item:nth-child(3) {
   background-color: rgba(0, 0, 255, 0.3);
   animation: animacija1 3s ease-in-out forwards;
-  transform: translateY(-100vh);
+  transform: translateY(-88vh);
   animation-delay: 3s;
 }
 
@@ -59,4 +59,18 @@ body {
     display: flex;
     flex-direction: column;
   }
+  
+  .container .item:nth-child(1) {
+  transform: translateY(-120vh);
+  
+}
+.container .item:nth-child(2) {
+  transform: translateY(-120vh);
+  
+}
+.container .item:nth-child(3) {
+  
+  transform: translateY(-120vh);
+  
+}
 }/*# sourceMappingURL=style.css.map */
